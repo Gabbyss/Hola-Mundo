@@ -1,6 +1,19 @@
+#Los estados o atributos de una clase son objetos
+
 @startuml pou
 
 class Pou
+{
+    - color 
+    - tamaño
+    - porcentajeSalud
+    +Comer ()
+    +Cagar ()
+    +Duchar ()
+    +Enfermar ()
+    +Dormir ()
+}
+
 class Pelota
 class Carro
 class Comida
